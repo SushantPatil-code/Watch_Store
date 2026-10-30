@@ -13,9 +13,8 @@ spring:
 #    password: 123456
 #    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
     url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}?sslmode=require
-#    username: ${DATABASE_USERNAME}
-     username :sushantpatil_user
-    password: ${DATABASE_PASSWORD}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    url : jdbc:postgresql://localhost:5433/WatchStore
 #    username: postgres
